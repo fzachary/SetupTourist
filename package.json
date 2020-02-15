@@ -1,0 +1,25 @@
+{
+  "name": "SetupTourist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "typeorm": "^0.2.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzachary/SetupTourist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzachary/SetupTourist/issues"
+  },
+  "homepage": "https://github.com/fzachary/SetupTourist#readme"
+}

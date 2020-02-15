@@ -47,6 +47,7 @@
                 const card = newEl('div', {class: 'card'});
                 const title = newEl('h4', {innerText: creator.name});
                 const img = newEl('img', {src: creator.img});
+                img.style.width = '100px';
                 card.appendChild(title);
                 card.appendChild(img);
                 ctr.appendChild(card);

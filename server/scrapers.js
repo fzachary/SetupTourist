@@ -12,14 +12,11 @@ async function scrapeChannel(url) {
 
     const [el2] = await page.$x('//*[@id="img"]');
     const src = await el2.getProperty('src');
-    const avatarURL = await src.jsonValue();
+    const avatarURL = await src.jsonValue()
 
     browser.close();
 
-    console.log({ name, avatarURL });
-
     return { name, avatarURL }
-
 }
 
 module.exports = {
