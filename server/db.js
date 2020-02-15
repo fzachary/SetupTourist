@@ -1,4 +1,5 @@
 const typeorm = require('typeorm');
+// TEST
 
 class Creator {
     constructor(id, name, img, ytURL) {
